@@ -1,7 +1,8 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
-    <h1>コンタクトページ  </h1>
 
+
+    <h1 class="text-3xl">コンタクト</h1>
     <ul>
         <li>
             インスタグラム： <a href="https://instagram.com/jeremy_jtp" target="blank">https://instagram.com/jeremy_jtp</a>
