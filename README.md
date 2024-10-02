@@ -8,26 +8,30 @@
 </p>
 
 ## Tentang Diri
-Jeremy James
-5025221139
-Pemrograman Berbasis Kerangka Kerja D
+Jeremy James<br>
+5025221139<br>
+Pemrograman Berbasis Kerangka Kerja D<br>
 
 ## Progress Minggu Ini
-Menggunakan database MySQL untuk menyimpan data posts, penerapan Database, Migration, Eloquent ORM, Post Model sesuai video 8 dan 9.
+Menggunakan faker untuk membuat Model Factory, penambahan page _Category_ dan _Articles by Author_ dengan Eloquent, dan seeding database sesuai video 10 sampai 13.
 
 ## Screenshot Progress
-Homepage
-![image](https://github.com/user-attachments/assets/7a96da64-cd5e-4d95-a9df-6d34d711ba0f)
 Blog
-![image](https://github.com/user-attachments/assets/19d805d7-dbe8-40e3-bfdb-62f6458cfcd7)
-About
-![image](https://github.com/user-attachments/assets/520857f7-09a6-4bff-b42a-5b4c78dfc75c)
-Contact
-![image](https://github.com/user-attachments/assets/89e62a92-871f-48d2-ba3c-dc5a0724c902)
-Mobile View
-![image](https://github.com/user-attachments/assets/aab511e0-5335-4b45-be89-007f9bb3906b)
-Database (menggunakan DBeaver instead of TablePlus)
-![image](https://github.com/user-attachments/assets/fe828f69-dfe7-4edc-ab49-9b44ecac8591)
+![image](https://github.com/user-attachments/assets/5d7fa643-2ec4-4d67-b309-7d506a037ec0)
+Blogs (by author)
+![image](https://github.com/user-attachments/assets/812efb3b-11bf-4523-90a7-e0aab08e9288)
+Blogs (by category)
+![image](https://github.com/user-attachments/assets/3e78aa88-f9f6-49a7-90d5-f4bb30c9f2ea)
+Database (using seeder) (one custom user + 4 faker users, 4 custom categories, and 100 faker posts)
+![image](https://github.com/user-attachments/assets/6401b237-d660-4724-b124-8b3d30fd02ff)
+![image](https://github.com/user-attachments/assets/c560512d-905e-472e-b6c8-8e7892a1e383)
+![image](https://github.com/user-attachments/assets/63611154-9d07-4e0a-b8f1-d9f7c2301c47)
+
+
+
+
+
+
 
 
 
