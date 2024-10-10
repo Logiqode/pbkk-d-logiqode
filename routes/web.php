@@ -11,7 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', function () {
-    return view('posts', ['title' => 'ブログ', 'posts' => Post::all() ]);
+    return view('posts', ['title' => 'ブログ', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->paginate(36)->withQueryString()]);
 });
 
 Route::get('/posts/{post:slug}', function(Post $post){    
@@ -20,11 +20,13 @@ Route::get('/posts/{post:slug}', function(Post $post){
 });
 
 Route::get('/authors/{user:username}', function(User $user){    
+        // $posts = $user->posts->load(['author', 'category']);
 
         return view('posts', ['title' => '「' . $user->name . '」の書いた記事が' . count($user->posts) . '件見つかりました' , 'posts' => $user->posts]);
 });
 
 Route::get('/categories/{category:slug}', function(Category $category){    
+        // $posts = $category->posts->load(['author', 'category']);
 
         return view('posts', ['title' => $category->name . 'の記事' , 'posts' => $category->posts]);
 });

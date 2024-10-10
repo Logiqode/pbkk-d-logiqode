@@ -25,6 +25,6 @@ class UserSeeder extends Seeder
             'remember_token' => Str::random(10),
         ]);
 
-        User::factory(4)->create();
+        User::factory(14)->create();
     }
 }

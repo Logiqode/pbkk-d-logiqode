@@ -13,7 +13,7 @@ Jeremy James
 Pemrograman Berbasis Kerangka Kerja D
 
 ## Progress Minggu Ini
-Menggunakan database MySQL untuk menyimpan data posts, penerapan Database, Migration, Eloquent ORM, Post Model sesuai video 8 dan 9.
+Menggunakan database MySQL untuk menyimpan data posts, penerapan Database, Migration, Eloquent ORM, Post Model sesuai video 8 dan 9.    
 
 ## Screenshot Progress
 Homepage
