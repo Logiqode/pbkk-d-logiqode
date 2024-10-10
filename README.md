@@ -13,27 +13,15 @@ Jeremy James<br>
 Pemrograman Berbasis Kerangka Kerja D<br>
 
 ## Progress Minggu Ini
-Menggunakan faker untuk membuat Model Factory, penambahan page _Category_ dan _Articles by Author_ dengan Eloquent, dan seeding database sesuai video 10 sampai 13.
+Menyelesaikan N+1 Problem, Redesign UI, fitur Searching, dan Pagination
 
 ## Screenshot Progress
-Blog
-![image](https://github.com/user-attachments/assets/5d7fa643-2ec4-4d67-b309-7d506a037ec0)
-Blogs (by author)
-![image](https://github.com/user-attachments/assets/812efb3b-11bf-4523-90a7-e0aab08e9288)
-Blogs (by category)
-![image](https://github.com/user-attachments/assets/3e78aa88-f9f6-49a7-90d5-f4bb30c9f2ea)
-Database (using seeder) (one custom user + 4 faker users, 4 custom categories, and 100 faker posts)
-![image](https://github.com/user-attachments/assets/6401b237-d660-4724-b124-8b3d30fd02ff)
-![image](https://github.com/user-attachments/assets/c560512d-905e-472e-b6c8-8e7892a1e383)
-![image](https://github.com/user-attachments/assets/63611154-9d07-4e0a-b8f1-d9f7c2301c47)
-
-
-
-
-
-
-
-
+Penyelesaian masalah N+1 dan Redesign UI
+![image](https://github.com/user-attachments/assets/3585e4ae-46eb-45ef-a22c-54c81f10107c)
+Fitur Searching
+![image](https://github.com/user-attachments/assets/d02b5df2-2332-44d5-8302-60d37426d27b)
+Pagination
+![image](https://github.com/user-attachments/assets/e655f017-11a0-4414-a738-7cc329bb2c70)
 
 
 ## License
